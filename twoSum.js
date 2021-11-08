@@ -1,5 +1,4 @@
 function twoSum(arr, target) {
-  //[3,2,4] target:6
   let index = 0; //index =0
   const map = {}; //map{}
   while (index < arr.length) {
