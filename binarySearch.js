@@ -1,7 +1,7 @@
 // this program shows the functioning of Binary Search
 function binarySearch(array, element, start = 0, end = array.length - 1) {
-    index = Math.floor(start + end / 2);
-    value = array[index]; //value -> item stored at index index of the given array
+    let index = Math.floor(start + end / 2);
+    let value = array[index]; //value -> item stored at index index of the given array
     if (value == element) {
         return index; //return the index at which element is found
     } else if (element < value) {
